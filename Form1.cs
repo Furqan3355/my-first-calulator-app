@@ -54,7 +54,15 @@ namespace Calculator
             }
             textBox1.Text += "3";
         }
-
+          private void ninetynine_Click(object sender, EventArgs e)
+        {
+            if (isOperationPerformed)
+            {
+                textBox1.Clear();
+                isOperationPerformed = false;
+            }
+            textBox1.Text += "3";
+        }
         private void four_Click(object sender, EventArgs e)
         {
             if (isOperationPerformed)
