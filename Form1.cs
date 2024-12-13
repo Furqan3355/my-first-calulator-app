@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.XPath;
 
-private viod oe(){console.write("talha u ma")}
+private viod oe(){console.write("talha u ma");}
 
 
 namespace Calculator
